@@ -1,0 +1,22 @@
+# 파이썬 내장 함수는 기재하지 않았습니다.
+# Python 버전은 3.10.10을 사용하였습니다.
+# 버전 상 충돌은 mlflow와 torch 버전에서 발생 가능합니다. PATH 부분에서 에러가 일부 있어 기존에 사용하던 가상환경에서 진행하여 주어진 pyproject.toml 파일과는 일부 버전이 다릅니다.
+
+# Cuda 버전의 Pytorch 및 Torchvision
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+
+# 전처리
+numpy==1.26.4
+pillow==11.3.0
+scipy==1.15.3
+
+# Medical Image Processing & Artifacts (Bias Field, Resampling)
+simpleitk==2.5.3
+
+# mlflow로 지표 추적
+mlflow==3.5.1
+mlflow-skinny==3.5.1
+
+# Utilities
+tqdm==4.67.1

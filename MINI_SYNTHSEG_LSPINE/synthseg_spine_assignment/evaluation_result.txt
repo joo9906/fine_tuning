@@ -1,0 +1,6 @@
+T2 Robustness Evaluation Results (2025-12-12 15:43:41)
+
+Model A (Synthetic, Train Loss 0.012): 0.2702
+Model B (Real T1 Baseline, Train Loss 0.052): 0.2106
+
+Model A (Synthetic) is more robust to Contrast Shift (T2).

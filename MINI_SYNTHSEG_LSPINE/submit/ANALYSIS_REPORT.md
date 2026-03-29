@@ -5,7 +5,7 @@
 ### 1.1. SynthSeg란 무엇인가?
 - **Billot et al.**이 제안한 뇌 MRI Segmentation 접근법에서 파생된 아이디어를 적용한 방법론입니다. 실제 MRI 데이터가 아닌 합성된(Synthetic) MRI 데이터만을 사용하여 Segmentation 모델을 훈련하는 것입니다.
 
-SynthSeg의 핵심 원리는 **라벨 맵(Label Map)**을 기반으로 영상의 **대비(Contrast), 노이즈(Noise), 해상도(Resolution), 아티팩트(Artifacts), 기하학적 형태(Geometry)** 등을 **무작위로 변화시킨 수많은 가짜 MRI 영상**을 생성하고, 이를 정답 라벨과 함께 모델 훈련에 사용하는 것입니다.
+- SynthSeg의 핵심 원리는 **라벨 맵(Label Map)**을 기반으로 영상의 **대비(Contrast), 노이즈(Noise), 해상도(Resolution), 아티팩트(Artifacts), 기하학적 형태(Geometry)** 등을 **무작위로 변화시킨 수많은 가짜 MRI 영상**을 생성하고, 이를 정답 라벨과 함께 모델 훈련에 사용하는 것입니다.
 
 ### 1.2. 합성 훈련이 일반화(Generalization)를 향상시키는 이유
 합성 훈련의 성공은 **도메인 무작위화(Domain Randomization, DR)** 원리에 기반합니다.
